@@ -5,6 +5,8 @@ description = "A simple Streamlit app template."
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
+    "google-auth>=2.56.3",
+    "gspread>=6.2.1",
     "streamlit>=1.61.1",
 ]
 
