@@ -1,14 +1,4 @@
 import streamlit as st
-
-st.title("Prueba de dependencias")
-
-try:
-    import gspread
-    st.success("✅ gspread está instalado correctamente")
-except ImportError as e:
-    st.error("❌ gspread NO está instalado")
-    st.code(str(e))
-
 import os
 import json
 from datetime import datetime, date
